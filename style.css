@@ -188,7 +188,6 @@ height: auto;
 	display: flex;
 	justify-content: center;
 }
-
 .am-recs{
 	margin-right: 32px;
 	display: flex;
@@ -211,12 +210,85 @@ height: auto;
 	max-width: 904px;
 }
 
+.skills {
+	font-family: 'Inconsolata';
+	display: flex;
+	height: 494px;
+	background-color: #1F1E1B;
+}
+
+.skills-wrapper {
+	position: relative;
+	width: 1440px;
+	margin: 0 auto;
+	margin-top: 63.79px;
+}
+
+.skills-title{
+	margin-bottom: 32px;
+	font-weight: 700;
+	font-size: 32px;
+	color: #FF8303;
+	line-height: 33.57px;
+	text-align: center;
+}
+
+.cardboards-wrapper {
+	display: flex;
+	margin: 0 auto;
+	width: 1064px;
+	height: 300px;
+	justify-content: space-between;
+}
+
+.cardboard{
+	display: flex;
+	width: 200px;
+	height: 300px;
+	background-color: #21201D;
+	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.cardboard-img {
+	margin-bottom: 16px;
+}
+
+.cardboard-title {
+	font-family: "Arial Narrow";
+	color: #fff;
+	text-align: center;
+	font-size: 32px;
+	line-height: 36.72px;
+	font-weight: 400;
+}
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+	font-family: "Arial Narrow";
+	
+	src: url("fonts/arialnarrow.ttf") format("truetype");
+	
+	font-style: normal;
+	font-weight: normal;
+	}
+	
 
 
 @font-face {

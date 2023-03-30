@@ -192,10 +192,23 @@ height: auto;
 }
 .rectangle-1 {
 	position: absolute;
+	animation: rotating 30s linear infinite reverse;
 }
 .rectangle-2 {
 	position: absolute;
+	animation: rotating 30s linear infinite;
 }
+
+@keyframes rotating {
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
+}
+
+
 .rectangle-photo {
 	position: absolute;
 }

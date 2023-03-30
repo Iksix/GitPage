@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700;900&display=swap');
 
+/* 
+am - about-me
+rec - rectangle
+
+
+*/
+
+
+
+
 html {
 box-sizing: border-box;
 font-size: 16px;
@@ -52,6 +62,8 @@ height: auto;
 	height: 80px;
 	padding-left: 128px;
 	padding-right: 120px;
+	margin: 0 auto;
+	position: relative;
 }
 
 .nav {
@@ -164,13 +176,40 @@ height: auto;
 	position: absolute;
 }
 
+.about-me {
+	display: flex;
+	height: 229px;
+	background: #1F1E1B;
+}
 
+.about-me-wrapper {
+	margin: 0 auto;
+	width: 1440px;
+	display: flex;
+	justify-content: center;
+}
 
+.am-recs{
+	margin-right: 32px;
+	display: flex;
+	margin-top: 76.4px;
+	width: 101px;
+	height: 101px;
+}
 
+.am-rec{
+	position: absolute;
+}
 
-
-
-
+.am-desc{
+	margin-top: 76.4px;
+	font-family: 'Inconsolata';
+	font-size: 24px;
+	line-height: 25.18px;
+	font-weight: 400;
+	color: #F0E3CA;
+	max-width: 904px;
+}
 
 
 

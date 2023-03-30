@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700;900&display=swap');
+
+html {
+box-sizing: border-box;
+font-size: 16px;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+margin: 0;
+padding: 0;
+font-weight: normal;
+}
+
+ol, ul {
+list-style: none;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+.header {
+	background: #1F1E1B;
+}
+
+.header-logo::before {
+	content: "</O";
+	color: #FF8303;
+}
+
+.header-logo {
+	padding-top: 20.5px;
+	font-family: "Impact";
+	color: #F0E3CA;
+	font-size: 32px;
+	line-height: 39px;
+}
+
+.header-logo::after {
+	content: ">";
+	color: #FF8303;
+}
+
+.header-wrapper {
+	display: flex;
+	max-width: 1440px;
+	height: 80px;
+	padding-left: 128px;
+	padding-right: 120px;
+}
+
+.nav {
+	position: absolute;
+	right: 120px;
+	width: 532px;
+	height: 80px;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 29.5px;
+}
+
+.nav-item a{
+	font-family: 'Inconsolata', monospace;
+	color: #F0E3CA;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 21px;
+}
+
+.about-me a{
+	color: #FF8303;
+}
+
+.welcome {
+	display: flex;
+	background-color: #1F1E1B;
+}
+
+.welcome-wrapper{
+	max-width: 1440px;
+	display: flex;
+	height: 720px;
+	margin: 0 auto;
+}
+
+.person-wrapper {
+	font-family: 'Inconsolata';
+	width: 448.25px;
+	height: 178.5px;
+}
+
+.person-name {
+	margin-top: 270.75px;
+	margin-bottom: 17.25px;
+	color: #FF8303;
+	font-size: 64px;
+	font-weight: 900;
+}
+
+.person-frontend-dev {
+	margin-bottom: 14px;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 42px;
+	color: #F0E3CA;
+}
+
+.person-frontend-dev-desc{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 21px;
+	color: #F0E3CA;
+}
+
+.photo-wrapper {
+	position: relative;
+	margin-left: 136px;
+	margin-top: 72px;
+	font-family: 'Inconsolata';
+	display: flex;
+	width: 629px;
+	height: 575px;
+	align-items: center;
+	justify-content: center;
+}
+
+.code {
+	position: absolute;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 18.88px;
+	width: 629px;
+	height: 575px;
+	z-index: 0;
+	top: 0px;
+	color: #A3570980;
+}
+
+.photo {
+	display: flex;
+	width: 510.57px;
+	height: 509.68px;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+}
+.rectangle-1 {
+	position: absolute;
+}
+.rectangle-2 {
+	position: absolute;
+}
+.rectangle-photo {
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+font-family: "Impact";
+
+src: url("fonts/Impact.ttf") format("truetype");
+
+font-style: normal;
+font-weight: normal;
+}

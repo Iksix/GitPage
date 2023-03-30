@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+	<header class="header">
+		<div class="header-wrapper">
+			<h1 class="header-logo">ntalex</h1>
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item about-me"><a href="#">About me</a></li>
+					<li class="nav-item"><a href="#">Skills</a></li>
+					<li class="nav-item"><a href="#">Pet-projects</a></li>
+					<li class="nav-item"><a href="#">Contacts</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="welcome">
+			<div class="welcome-wrapper">
+				<div class="person-wrapper">
+					<h1 class="person-name">Alexey Borisov</h1>
+					<h2 class="person-frontend-dev">Frontend Developer</h2>
+					<p class="person-frontend-dev-desc">Frontend developer looking for ideas and projects for himself and others</p>
+				</div>
+				<div class="photo-wrapper">
+					<p class="code">
+						let button_menu = document.querySelector(".header_button");<br>
+						let float_menu  = document.querySelector(".header_menu--float");<br>
+						<br>
+						let line_top   = document.querySelector(".header_button_line--top");<br>
+						let line_under = document.querySelector(".header_button_line--bottom");<br>
+						<br>
+						button_menu.isSelected = false;<br>
+						<br>
+						function addEffectWriting(element, time) { <br>
+					&nbsp	let element_array = element.innerText.split("");<br>
+					<br>
+					&nbsp	element.count     = 0;<br>
+					&nbsp	element.innerText = "";<br>
+					<br>
+					&nbsp	function writeSymbols() {<br>
+						&nbsp&nbsp&nbsp&nbsp		  element.innerText += element_array[element.count];<br>
+						&nbsp&nbsp&nbsp&nbsp	  element.count++;<br>
+							<br>
+							&nbsp&nbsp&nbsp&nbsp	  if (element.count <= element_array.length) {<br>
+								&nbsp&nbsp&nbsp&nbsp&nbsp		setTimeout(() => {<br>
+								&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp		  writeSymbols();<br>
+								&nbsp&nbsp&nbsp&nbsp&nbsp		}, time);<br>
+								&nbsp&nbsp&nbsp	  } else if (element.count >= element_array.length) {<br>
+									&nbsp&nbsp&nbsp&nbsp&nbsp		element.count     = 0;<br>
+									&nbsp&nbsp&nbsp&nbsp&nbsp		element.innerText = "";<br>
+							<br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp		writeSymbols();<br>
+							&nbsp&nbsp&nbsp	  }<br>
+							&nbsp&nbsp}...
+						</p>
+					<div class="photo">
+						<img class="rectangle-1" src="img/welcome/Rectangle1.png">
+						<img class="rectangle-2" src="img/welcome/Rectangle2.png">
+						<img class="rectangle-photo" src="img/welcome/RectanglePhoto.png" alt="Alexey Borisov">
+					</div>	
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

@@ -1,0 +1,143 @@
+@media screen and (max-width: 1215px) {
+    
+.header-wrapper {
+    max-width: 704px;
+    padding: 0;
+    display: block;
+	height: 112px;
+}
+
+.header-logo{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.nav {
+    position: relative;
+    margin: 0 auto;
+    right: 0;
+}
+
+.nav-list {
+    margin-top: 0;
+}
+
+.welcome {
+    display: flex;
+}
+
+.welcome-wrapper{
+    display: block;
+    width: 704px;
+    height: 1072px;
+}
+
+.person-wrapper {
+    margin: 0 auto;
+    margin-top: 128px;
+    display: block;
+    justify-content: center;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.person-name{
+    margin-top: 0;
+}
+
+.photo-wrapper {
+    margin: 0 auto;
+}
+
+.about-me{
+    height: 253px;
+}
+.about-me-wrapper{
+    max-width: 576px;
+    justify-content: center;
+    align-items: center;
+}
+    
+.am-recs {
+    margin: 0;
+	margin-right: 32px;
+}
+
+.am-desc {
+    margin-top: 0;
+    max-width: 444px;
+}
+
+.skills{
+    height: 810px;
+}
+
+.skills-wrapper{
+    max-width: 704px;
+}
+
+.cardboards-wrapper {
+    position: relative;
+    display: flex;
+    max-width: 632px;
+    height: 616px;
+}
+
+.cardboard-down,
+.cardboard-down-git{
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    top: 348px;
+    left: 108px;
+}
+
+.cardboard-down-git{
+    left: 324px;
+}
+
+.my-works {
+    height: 1186px;
+}
+.mw-wrapper {
+    width: 704px;
+}
+.works-wrapper {
+    width: 320px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+	justify-content: center;
+}
+.work-cardboard,
+.work-img{
+    margin-bottom: 16px;
+}
+
+.footer {
+    height: 449px;
+}
+.footer-wrapper {
+    width: 704px;
+    display: block;
+}
+
+.footer-desc {
+    width: 339px;
+    height: 108px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.contacts {
+    margin: 0 auto;
+}
+
+.contacts-title{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+
+
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="tabletStyle.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -13,10 +14,10 @@
 			<h1 class="header-logo">ntalex</h1>
 			<nav class="nav">
 				<ul class="nav-list">
-					<li class="nav-item about-me"><a href="#about-me">About me</a></li>
+					<li class="nav-item-about-me"><a href="#about-me">About me</a></li>
 					<li class="nav-item"><a href="#skills">Skills</a></li>
 					<li class="nav-item"><a href="#my-works">Pet-projects</a></li>
-					<li class="nav-item"><a href="#">Contacts</a></li>
+					<li class="nav-item"><a href="#footer">Contacts</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -105,15 +106,15 @@
 							<h2 class="cardboard-title">JavaScript</h2>
 						</div>
 					</div>
-
-					<div class="cardboard">
+					
+					<div class="cardboard cardboard-down">
 						<div class="cardboard-wrapper">
 							<img class="cardboard-img SCSS" src="img/skills/scss-uc.png" alt="SCSS">
 							<h2 class="cardboard-title">SCSS</h2>
 						</div>
 					</div>
 
-					<div class="cardboard">
+					<div class="cardboard cardboard-down-git">
 						<div class="cardboard-wrapper">
 							<img class="cardboard-img GIT" src="img/skills/git-uc.png" alt="GIT">
 							<h2 class="cardboard-title">Git</h2>
@@ -135,7 +136,7 @@
 							<a class="wc-link" href="#">See more →</a>
 						</div>
 					</div>
-					<img src="img/my-works/blog-img.png" alt="blog">
+					<img class="work-img" src="img/my-works/blog-img.png" alt="blog">
 					<div class="work-cardboard">
 						<div class="wc-wrapper">
 							<h3 class="wc-title">News Blog</h3>
@@ -148,7 +149,7 @@
 			</div>
 		</div>
 
-		<footer class="footer">
+		<footer id="footer" class="footer">
 			<div class="footer-wrapper">
 				<div class="footer-desc">
 					<h1 class="header-logo footer-logo">ntalex</h1>

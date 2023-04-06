@@ -1,0 +1,180 @@
+@media screen and (max-width: 651px) {
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.header-wrapper{
+    display: none;
+}
+.header-wrapper-phone{
+    display: flex;
+    position: relative;
+    height: 80px;
+}
+.header-logo-phone {
+    display: flex;
+    margin-left: 8px;
+}
+.menu-phone {
+    position: absolute;
+    right: 8px;
+    top: 16px;
+    cursor: pointer;
+}
+.welcome{
+    height: 960px;
+}
+.welcome-wrapper{
+    width: 450px;
+}
+.person-wrapper{
+    width: 314px;
+    height: 183px;
+}
+
+.person-name{
+    font-size: 40px;
+    line-height: 41.96px;
+}
+
+.person-frontend-dev {
+    line-height: 33.57px;
+    font-size: 32px;
+}
+.person-frontend-dev-desc{
+    font-size: 24px;
+}
+.photo-wrapper{
+    width: 380px;
+    height: 380px;
+}
+.code {
+    font-size: 12px;
+    line-height: 12.59px;
+    width: 413px;
+    height: 430px;
+}
+.about-me{
+    height: 460px;
+}
+.about-me-wrapper{
+    width: 450px;
+    display: block;
+}
+.am-recs{
+	margin-top: 64px;
+    margin: 0 auto;
+}
+.am-desc {
+    margin: 0 auto;
+    width: 320px;
+    margin-top: 32px;
+}
+.skills{
+    height: 572px;
+}
+.skills-wrapper{
+    width: 450px;
+}
+
+.cardboard {
+    margin-top: 16px;
+    width: 285px;
+    height: 60px;
+	align-items: normal;
+}
+.cardboards-wrapper{
+    width: 285px;
+    height: 378px;
+    margin: 0 auto;
+    display: block;
+	justify-content: center;
+}
+.cardboard-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.cardboard-img {
+    position: relative;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin-left: 36px;
+    margin-top: 14px;
+}
+.cardboard-title {
+    margin-left: 16px;
+    position: relative;
+    display: flex;
+    text-align: left;
+    font-size: 24px;
+    line-height: 25.18px;
+}
+.cardboard-down,
+.cardboard-down-git{
+    margin: 0;
+    margin-top: 16px;
+    position: relative;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+.footer{
+    height: 593px;
+}
+.footer-wrapper{
+    width: 450px;
+}
+.contacts{
+    width: 330px;
+    height: 295px;
+}
+.contacts-wrapper{
+    display: block;
+    width: 204px;
+    margin: 0 auto;
+}
+.phone-nav-wrapper{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    height: 680px;
+    background-color: #1F1E1B;
+    top: 80px;
+    z-index: 3;
+    transform: scaleY(0);
+    transition: 0.3s;
+    transform-origin: top;
+}
+.phone-nav-wrapper.active{
+    transform: scaleY(1);
+}
+.nav-list-phone {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 194px;
+    height: 292px;
+}
+.nav-item, .nav-item-about-me {
+    position: relative;
+    text-align: center;
+    margin-top: 64px;
+}
+.nav-item a::before,
+.nav-item-about-me a::before{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+}

@@ -100,7 +100,7 @@
     height: 1186px;
 }
 .mw-wrapper {
-    width: 704px;
+    max-width: 704px;
 }
 .works-wrapper {
     width: 320px;

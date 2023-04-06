@@ -10,7 +10,9 @@ wc - work-cardboard
 
 */
 
-
+.header-wrapper-phone{
+	display: none;
+}
 
 
 html {
@@ -164,7 +166,7 @@ height: auto;
 .photo-wrapper {
 	position: relative;
 	margin-left: 136px;
-	margin-top: 72px;
+	margin-top: 64px;
 	font-family: 'Inconsolata';
 	display: flex;
 	width: 629px;
